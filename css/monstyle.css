@@ -1,0 +1,349 @@
+.margetop{
+    margin-top: 10px;
+}
+
+.margetop10 {
+    margin-top: 10px;
+}
+
+.margetop20 {
+    margin-top: 20px;
+}
+
+.margetop30 {
+    margin-top: 30px;
+}
+
+.margetop40 {
+    margin-top: 40px;
+}
+
+.margetop50 {
+    margin-top: 50px;
+}
+
+.margetop60 {
+    margin-top: 60px;
+}
+
+.no-margin {
+    margin-top: 0px;
+}
+
+.no-paddin{
+    padding: 0px;
+}
+
+.largeur{
+    width: 20%;
+}
+
+.largeur100{
+    width: 100%;
+    /*margin: auto;*/
+    padding: 10px;
+}
+.marginleft10{
+    margin-left: 10%;
+}
+
+.editpwdpage h1,h2{
+    color: #2e6da4;
+}
+
+.editpwdpage h1{
+    font-size: 45px;
+}
+
+.editpwdpage h2{
+    font-size: 40px;
+    font-weight: bold;
+}
+.stron
+{
+    //font-size: 40px;
+    font-weight: bold; 
+}
+
+.editpwdpage form{
+    width: 400px;
+    margin: auto;
+}
+
+.editpwdpage input{
+    margin-bottom: 20px;
+}
+
+.form-control{
+    position: relative;
+}
+
+.login{
+    width: 300px;
+    margin: 300px auto;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login h4{
+    color: #888;
+}
+.body{
+    background-color: rgb(200, 238, 238);
+    font-size: 16px;
+}
+.input-container{
+    position: relative;
+    margin-bottom: 10px;
+}
+.show-pass{
+    position: absolute;
+    top: 0px;
+    right: -35px;
+}
+
+.show-old-pwd,.show-new-pwd{
+    position: absolute;
+    top: 0px;
+    right: -35px;
+}
+
+.clickale{
+    cursor: pointer;
+}
+
+a:hover
+{
+    cursor: pointer;
+    color: #1680e4;   
+}
+
+h1{
+    font-size: 40px;
+    color: #2980b9;
+}
+#param{
+    height: 0;
+}
+
+#restecom{
+    width: auto;
+}
+.radiob {
+	margin-left:50px;
+}	
+
+.nav-link {
+    color: white !important;
+}
+
+.bg-company-red {
+    background-color: rgb(5, 115, 189) !important;
+    
+}
+
+.marginleft
+{
+    margin-left:10px;
+}
+	
+
+.clickale.bord
+{
+	float:left;
+	width:5%;
+	height:25px;
+}
+
+.suite
+{
+	width:10%;
+	height:25px;
+	float:left;
+	font-size:16px;
+	font-weight:normal;
+	text-align:left;
+}
+
+.unite
+{
+	width:10%;
+	height:25px;
+	float:left;
+	font-size:16px;
+	font-weight:normal;
+	text-align:left;
+}
+
+.des
+{
+	width:30%;
+	height:25px;
+	float:left;
+	font-size:16px;
+	font-weight:normal;
+	text-align:left;
+	overflow:hidden;
+}
+.bord
+{
+	float:left;
+	width:10%;
+	height:25px;
+}
+
+.navbarposit {
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0px; /* Position the navbar at the top of the page */
+  }
+
+
+.prix
+{
+	width:10%;
+	height:25px;
+	float:left;
+	font-size:16px;
+	font-weight:normal;
+	text-align:right;
+}
+
+.titre_h1
+{
+	width:auto;
+	display:block;
+	height:auto;
+	text-align:center;
+	background-color:#EDEEEE;
+	border:#666666 1px solid;
+	padding-top:20px;
+	padding-bottom:8px;	
+	border-radius: 5px;
+	margin-left: 10px;
+}
+
+.div_saut_ligne
+{
+	width:100%;
+	height:5px;
+	display:inline-block;
+}
+.accuei
+{
+    background-color:#eff1ef;
+}
+
+#idaccueil
+{
+    text-align: center;
+}
+#editer{
+	margin-left: 30px;
+	width: 100%;
+}
+
+#imprimerrecupaiement{
+	margin-left: 30px;
+	width: 100%;
+}
+
+#imprimerrapportpaiement{
+	margin-left: 30px;
+	width: 100%;
+}
+
+.marginleft
+{
+    margin: auto;
+}
+
+#entreprisenam{
+	font-size:50px;
+    font-weight:normal;
+}
+
+/*Les propriétés du conteneur flex sont:
+
+flex-direction: // La flex-directionpropriété définit dans quelle direction le conteneur souhaite empiler les éléments flexibles.
+flex-wrap
+flex-flow
+justifier le contenu
+align-items
+align-content*/
+
+.flex-container {
+    display: flex;/*Le conteneur flex devient flexible en définissant la displaypropriété sur flex :*/
+    flex-wrap: wrap;/*la valeur rwap signifie que les elements wrap flex seront enveloppés*/
+    /*flex-direction: column;/*La valeur de la colonne empile les éléments flex verticalement (de haut en bas):*/
+    /*flex-direction: row;/*La valeur de ligne empile les éléments flex horizontalement (de gauche à droite):*/
+    background-color: DodgerBlue;
+    /*flex-flow: row wrap;/*La flex-flowpropriété est une propriété abrégée permettant de définir les propriétés flex-directionet flex-wrap.*/
+    /*justify-content: center;/*La valeur center aligne les éléments flexibles au centre du conteneur:*/
+    /*justify-content: flex-start; /*La valeur flex-start aligne les éléments flex au début du conteneur (c'est par défaut):*/
+    /*justify-content: space-between;/*L' espace entre la valeur affiche les éléments flexibles avec l' espace entre les lignes:*/
+    /*justify-content: flex-end;/*La valeur flex-end aligne les éléments flex à la fin du conteneur:*/
+    /*height: 400px;
+    /*align-items: center;/*La valeur centrale aligne les éléments flexibles au milieu du conteneur:*/
+    align-content: stretch;/* La valeur 
+    ' étirement étire les lignes flex pour occuper l'espace restant (c'est par défaut):*/
+}
+  
+ .flex-container div {
+    background-color: #f1f1f1;
+    width: auto;
+    margin: 10px;
+    text-align: center;
+    line-height: auto;
+    font-size: 30px;
+    
+  }
+
+  /* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+    .flex-container {
+      flex-direction: column;
+    }
+  }
+
+
+#etatcaissefranc{
+    background-color: rgb(101, 255, 30);
+    border-radius: 40px;
+    width: auto;
+    border:#666666 1px solid;
+    font-weight: bold;
+}
+
+#etatcaissedollar{
+    background-color: rgb(101, 255, 30);
+    border-radius: 40px;
+    width: auto;
+    border:#666666 1px solid;
+    font-weight: bold;
+}
+
+#detteenfc{
+    background-color: rgb(255, 30, 30);
+    border-radius: 40px;
+    width: auto;
+    border:#666666 1px solid;
+    font-weight: bold;
+}
+
+#detteendollar{
+    background-color: rgb(255, 30, 30);
+    border-radius: 40px;
+    width: auto;
+    border:#666666 1px solid;
+    font-weight: bold;
+}
+
+#dispo{
+    color: rgb(45, 30, 255); 
+    text-decoration: underline;  
+}
+
+#dette{
+    color: rgb(255, 30, 30);  
+    text-decoration: underline; 
+}
